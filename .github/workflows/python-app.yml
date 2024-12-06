@@ -2,7 +2,7 @@ name: Weekend Email Automation
 
 on:
   schedule:
-    - cron: "45 12 * * 5"  # Runs every Friday at 12:45 PM UTC (6:15 PM IST)
+    - cron: "30 18 * * 5"  # Runs every Saturday at 12:00 AM IST (6:30 PM UTC Friday)
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
