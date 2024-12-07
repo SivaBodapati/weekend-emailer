@@ -96,6 +96,6 @@ def send_weekend_emails(excel_file):
         print("Not a Saturday")
 
 if __name__ == "__main__":
-    excel_file = "weekend-emailer/Answer.xlsx"  # Replace with your actual file path
+    excel_file = "Answer.xlsx"  # Replace with your actual file path
     send_weekend_emails(excel_file)
 
